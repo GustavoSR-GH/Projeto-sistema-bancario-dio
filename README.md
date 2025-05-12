@@ -1,15 +1,41 @@
 # Projeto sistema bancário em python
-Este projeto é uma simulação simples de um sistema bancário, desenvolvido como parte de uma atividade prática do Bootcamp da DIO (Suzano - Python Developer).
+Este projeto simula um sistema bancário simples, criado em Python, com funcionalidades de cadastro de usuários, login, saques, depósitos e verificação de saldo. Foi desenvolvido com foco em praticar lógica de programação, estruturas de controle, manipulação de dados e entrada do usuário via terminal. Desenvolvido como parte de uma atividade prática do Bootcamp da DIO (Suzano - Python Developer).
 
-O sistema permite realizar operações bancárias básicas como saque, depósito e consulta de saldo, tudo via terminal.
+**🗂️ Versões:**
 
+**_desafio_banco.py_:**
 
-**Funcionalidades:**
+- Menu simples de operações bancárias.
 
-- Depósito de valores positivos na conta
+- Operações de saque, depósito e visualização de saldo.
 
-- Saque com limite de até R$500 por saque e até 3 saques diários
+- Controle de limite de saques (3 por sessão).
 
-- Consulta de saldo
+- Validação de limite de valor por saque (R$500,00).
 
-- Menu interativo em loop até a opção de sair ser escolhida
+_**desafio_banco-v2.py**_
+- Versão aprimorada com sistema de usuários:
+
+- Cadastro de usuários com:
+
+- Nome
+
+- Data de nascimento (restrição de maioridade)
+
+- CPF (validação simples)
+
+- Endereço completo
+
+- Senha de acesso
+
+- Geração automática de número da conta e atribuição fixa da agência (0001).
+
+- Login com CPF e senha, com mensagens específicas para:
+
+- CPF não cadastrado
+
+- Senha incorreta
+
+- Operações personalizadas por usuário (cada um tem seu saldo individual).
+
+- Melhorias na interface e validação de entradas numéricas.
